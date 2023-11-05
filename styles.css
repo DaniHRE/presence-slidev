@@ -1,0 +1,7 @@
+.slidev-vclick-target {
+  transition: opacity 350ms ease;
+}
+
+.bolt {
+  filter: drop-shadow(0px 0px 15px lime);
+}

@@ -1,82 +1,137 @@
 ---
-title: Apresentação do Projeto Presence
+title: Presence
 author: Viktor Marinho, Daniel Henrique, Guilherme Abe.
 layout: cover
+transition: fade
 fonts:
-  sans: 'Robot'
-  serif: 'Robot Slab'
-  mono: 'Fira Code'
+  sans: Robot
+  serif: Robot Slab
+  mono: Fira Code
 ---
 
-<img src="https://raw.githubusercontent.com/viktormarinho/deco-apps/main/presence/logo.png" style="filter: invert()" width="225" height=""/>
+<img v-click src="presence-old.png" style="filter: invert()" width="300" height=""/>
 
-**Otimize a conversão do seu e-commerce com Gatilhos Emocionais de Social Proof
-em Tempo Real**
-
----
-
-<br>
-<br>
-<br>
-<br>
-
-<div style="display: flex; align-items: center; gap: 4rem; justify-content: center;">
-  <div style="display: flex; align-items: center; flex-direction: column; gap: 1rem;">
-  <div style="display: flex; align-items: end; gap: 1rem; margin-top: 2rem">
-  <img src="https://raw.githubusercontent.com/deco-cx/apps/main/decohub/logo.png" style="" width="150" height=""/>
-  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="green" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"/>
-  <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"/>
-  <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"/>
-  <path d="M14 7l6 0"/>
-  <path d="M17 4l0 6"/>
-  </svg>
-  </div>
-  <h5>Deco Apps</h5>
-  </div>
-  <img src="https://raw.githubusercontent.com/viktormarinho/deco-apps/main/presence/logo.png" style="filter: invert()" width="200" height=""/>
-</div>
-
-<br>
-<br>
-<br>
-
-<h4 style="text-align: center;">
-Plug and Play de Sections, Handlers e Actions para o seu site deco.cx
+<h4 v-after style="position: absolute; bottom: 2rem; left: 2rem;">
+Viktor Marinho
 </h4>
 
+
+---
+layout: center
+---
+
+<img src="counter.gif" width="600" style="border-radius: 8px; filter: drop-shadow(5px 5px 10px white);" />
+
+---
+layout: center
+transition: slide-left
+---
+
+<img src="presence-old.png" style="margin: auto; filter: invert();" width="500" height=""/>
+
+---
+layout: center
+---
+
+<div style="display: flex; align-items: center; margin-bottom: 150px;">
+  <img src="presence-new.png" style="margin: auto; filter: invert();" width="500" height=""/>
+  <img src="bolt.svg" class="bolt" style="margin-top: 20px;"/>
+</div>
+
+<h3 v-click="1" style="text-align: center; margin-top: -150px;">
+Redefinir experiências
+</h3>
+
+<h3 v-click="2" style="text-align: center;">
+Taxas de Conversão de 6 a 10 vezes maiores
+</h3>
+
+<h3 v-click="3" style="text-align: center;">
+10% do mercado de varejo Chinês
+</h3>
+
+---
+layout: center
+---
+
+<h1 style="text-align: center; margin-top: 0">Live Commerce</h1>
+
+<div style="display: flex; align-items:center; gap: 4rem">
+  <div v-click="1" style="display: flex; align-items:center; flex-direction: column;">
+  <img src="connections.gif" width="200" style=" border-radius: 8px"/>
+  <h5 style="text-align: center;">Conexões genuínas <br> entre Consumidor e marca</h5>
+  </div>
+  <div v-click="2" style="display: flex; align-items:center; flex-direction: column;">
+  <img src="review.gif" width="300" style=" border-radius: 8px;"/>
+  <h5 style="text-align: center;">Melhor visão do produto, <br> com experiência mais envolvente</h5>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
+  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+</div>
+
+---
+layout: center
+---
+
+<div style="display: flex; align-items: center; gap: 4rem; justify-content: center; margin-left: 4.5rem;">
+  <div style="display: flex; align-items: center; flex-direction: column; gap: 1rem;">
+    <div style="display: flex; align-items: end; gap: 1rem;">
+      <img src="https://raw.githubusercontent.com/deco-cx/apps/main/decohub/logo.png" style="" width="150" height=""/>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="green" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"/>
+      <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"/>
+      <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"/>
+      <path d="M14 7l6 0"/>
+      <path d="M17 4l0 6"/>
+      </svg>
+    </div>
+    <h5>Deco Apps</h5>
+  </div>
+  <span>🤝</span>
+  <div style="display: flex; align-items: center;margin-bottom: 35px;">
+    <img src="presence-new.png" style="margin: auto; filter: invert();" width="250" height=""/>
+    <img src="bolt.svg" class="bolt" style="margin-top: 5px; width: 70px;"/>
+  </div>
+</div>
+
+<h4 style="position: absolute; bottom: 2rem; left: 2rem;">
+Daniel Henrique
+</h4>
+
+---
+layout: center
+---
+
+<img src="stream-architecture.png" width="400" style="border-radius: 8px; margin: auto" />
 <br>
+<h4 style="text-align: center;">Exemplo de arquitetura de <br> um serviço de streaming de vídeo</h4>
 
-<h5 style="text-align: center;">
-  <span style="color: dodgerblue; text-decoration: underline;">Pull request #188</span>
-</h5>
+
+<div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
+  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+</div>
 
 ---
-
-<h2 style="text-align:center; margin-top: 12rem;">Mão na massa</h2>
-
-<img src="https://raw.githubusercontent.com/viktormarinho/deco-apps/main/presence/logo.png" style="filter: invert(); position: absolute; bottom: 2rem; right: 2rem;" width="150" height=""/>
+layout: center
 ---
 
-## Configuração
+<img src="chat.gif" width="600" style="border-radius: 8px; filter: drop-shadow(5px 5px 10px white);" />
 
-Para começar, configure o Handler do Presence de acordo com suas necessidades.
+<div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
+  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+</div>
 
-Aqui está um exemplo de como você faria isso:
+---
+layout: center
+---
 
-```bash
-├── apps
-├── components
-├── islands
-├── loaders
-├── routes
-  └── presence
-    └── index.ts   <-- Crie este arquivo
-├── sdk
-├── sections
-└── static
-```
+`routes/presence/index.ts`
 
 ```ts
 import { createPresenceHandler } from "apps/presence/infra/presenceRoom.ts";
@@ -84,82 +139,77 @@ import { createPresenceHandler } from "apps/presence/infra/presenceRoom.ts";
 export const handler = createPresenceHandler({});
 ```
 
-<img src="https://raw.githubusercontent.com/viktormarinho/deco-apps/main/presence/logo.png" style="filter: invert(); position: absolute; bottom: 2rem; right: 2rem;" width="150" height=""/>
+
+<div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
+  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+</div>
+
+---
+layout: center
 ---
 
-Se você deseja ir mais a
-fundo, o Presence permite que você se conecte a alguns eventos, como quando
-ocorre um erro (útil para registro e métricas), ou quando o servidor WebSocket
-transmite mensagens para uma sala (útil para estender o comportamento).
-
-Aqui está um exemplo mais complexo:
+`routes/presence/index.ts`
 
 ```ts
+import { createPresenceHandler } from "apps/presence/infra/presenceRoom.ts";
+
 export const handler = createPresenceHandler({
-  onError: (e) => {
-    someLogService.registerError(e);
-  },
+  onError: (err) => externalLogService.error(err),
   onRoomStateChange: (room) => {
     otherRealtimeService.notifyStateChange(room.connections);
-  },
+  }
 });
 ```
 
-<img src="https://raw.githubusercontent.com/viktormarinho/deco-apps/main/presence/logo.png" style="filter: invert(); position: absolute; bottom: 2rem; right: 2rem;" width="150" height=""/>
----
+É possível "hookar" em eventos relevantes para extender a funcionalidade
 
-Agora você pode usar qualquer Seção do Presence, e elas usarão o Handler
-configurado anteriormente para rastrear toda a lógica em tempo real necessária.
-
-Por exemplo, se você deseja exibir a Seção PresenceCounter, que mostra um
-contador de quantas pessoas estão na página atual (útil para gatilhos de Prova
-Social), você pode usá-la assim:
-
-```bash
-├── apps
-├── components
-├── islands
-  └── Presence
-    └── PresenceCounter.tsx   <-- Crie este arquivo
-├── loaders
-├── routes
-├── sdk
-├── sections
-└── static
-```
-
-```ts
-export { type Props } from "apps/presence/sections/Presence/PresenceCounter.tsx";
-export { default } from "apps/presence/sections/Presence/PresenceCounter.tsx";
-```
-
-<img src="https://raw.githubusercontent.com/viktormarinho/deco-apps/main/presence/logo.png" style="filter: invert(); position: absolute; bottom: 2rem; right: 2rem;" width="150" height=""/>
----
-
-<br>
-<br>
-<br>
-<br>
-
-```ts
-export { type Props } from "apps/presence/sections/Presence/PresenceCounter.tsx";
-export { default } from "apps/presence/sections/Presence/PresenceCounter.tsx";
-```
-
-Por quê esse re-export é necessário?
-
-<img src="https://fresh.deno.dev/logo.svg?__frsh_c=04a5b2c5ca2fac3ddfb2d75553b44aae75c5778a" />
-
-O Fresh não permitirá que nenhum Aplicativo Deco externo crie uma Island, a
-menos que você o reexporte explicitamente na pasta Islands, portanto, esta etapa
-é necessária para que o componente funcione corretamente.
-
-<img src="https://raw.githubusercontent.com/viktormarinho/deco-apps/main/presence/logo.png" style="filter: invert(); position: absolute; bottom: 2rem; right: 2rem;" width="150" height=""/>
+<div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
+  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+</div>
 
 ---
+layout: center
+---
 
-<h2 style="text-align:center; margin-top: 12rem;">
-Começe a otimizar a conversão do seu e-commerce com o Presence hoje, na deco!
-</h2>
+<img src="pagespeed.png" width="450" style="border-radius: 8px;"/>
+<h4 style="margin-top: 1rem; text-align: center;">Zero peer-dependencies + Bundle mínimo</h4>
 
-<img src="https://raw.githubusercontent.com/viktormarinho/deco-apps/main/presence/logo.png" style="filter: invert(); position: absolute; bottom: 2rem; right: 2rem;" width="150" height=""/>
+<div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
+  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+</div>
+
+---
+layout: center
+---
+
+<div style="text-align: center;">
+<h3>
+  <svg style="display: inline;" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+  </svg> 
+  <span>deco-cx/apps</span>
+</h3>
+<h3 style="text-decoration: underline; color: dodgerblue;">Pull request #188</h3>
+</div>
+
+<div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
+  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+</div>
+
+---
+layout: center
+---
+
+## Obrigado pela atenção!
+
+<br>
+  <div style="display: flex; align-items: center;margin-bottom: 35px;">
+    <img src="presence-new.png" style="margin: auto; filter: invert();" width="250" height=""/>
+    <img src="bolt.svg" class="bolt" style="margin-top: 5px; width: 70px;"/>
+  </div>
+---

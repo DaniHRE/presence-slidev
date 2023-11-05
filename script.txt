@@ -1,0 +1,68 @@
+
+Boa tarde a todos, meu nome é Viktor Marinho e hoje vou compartilhar com vocês o nosso projeto, o Presence.
+
+Na primeira etapa do Hackathon, entregamos um projeto focado nos gatilhos de Social Proof. Parte da nossa
+entrega foi essa section, PresenceCounter, que vocês estão vendo aí. Ela mostra quantas pessoas estão na página
+junto com você.
+
+/** Opcional **/ O PresenceCounter, alem de somente mostrar as pessoas na página, também pode ser utilizado como método para aumentar a competição prensente. Imagine a situação em que você tem um produto na black friday e várias pessoas estão olhando o mesmo produto e também visualizando o estoque dele, existe uma clara competição entre as pessoas interessadas para a compra do produto.
+
+Porém, na segunda etapa do hackathon, tivemos que fazer uma coisa um pouco arriscada.
+Tivemos que mudar o tema do projeto. Evoluir, eu diria. Deixamos de apenas querer acionar apenas este gatilho de Social Proof,
+para contribuir com o que acreditamos que tem capacidade de aumentar a sua conversão de verdade.
+
+o Presence advoca pelo futuro do E-commerce.
+Aquilo que tem capacidade de redefinir o que o usuário entende por e-commerce.
+Aquilo que comprovadamente alavanca taxas de conversão de 6 a 10 vezes mais altas que as vendas tradicionais por e-commerce.
+Aquilo que hoje já ocupa 10% do mercado de varejo da China.
+
+É claro que estou falando de Live Commerce.
+
+Acreditamos que o futuro do comércio digital (e o presente, em diversos lugares) é o 
+Live Commerce. Além dos dados que falei para vocês agora, sem dúvidas o mais importante desse tipo de comércio é o seu potencial de engajar e estabelecer conexões verdadeiras entre o consumidor e a marca, algo tão importante atualmente, e que TODA marca busca.
+
+Também é extremamente fácil perceber como esse mercado contribui para as vendas, quando você tem uma pessoa ao vivo se comunicando com você e mostrando o produto em 360 graus. Quem nunca quis saber mais de um produto antes de comprar e pesquisou uma Review no youtube?
+
+PROMPT2
+No futuro, e mesmo no presente em muitos lugares, acreditamos que o Live Commerce é a próxima revolução no comércio digital. Vejam, além de todos os dados que compartilhei com vocês agora, o que realmente se destaca neste tipo de comércio é a capacidade de criar conexões genuínas entre o consumidor e a marca. Isso é crucial nos dias de hoje, algo que todas as grandes marcas buscam incansavelmente.
+
+É incrivelmente evidente como esse mercado impulsiona as vendas. Imagine ter alguém ao vivo, interagindo diretamente com você, mostrando o produto em todos os ângulos possíveis. Quem aqui nunca desejou saber mais sobre um produto antes de comprar? Quem nunca passou horas pesquisando análises no YouTube antes de tomar uma decisão? Isso é o que o Live Commerce proporciona, uma experiência real e envolvente que vai além das descrições estáticas. É o futuro do comércio digital, e é emocionante fazer parte disso.
+PROMPT2
+
+PROMPT
+
+Acreditamos que o futuro do comércio digital, e em muitos lugares, o presente, é o Live Commerce. Além das informações que compartilhei anteriormente, inquestionavelmente, o aspecto mais significativo desse tipo de comércio reside em seu potencial para envolver e estabelecer conexões genuínas entre o consumidor e a marca. Esse é um elemento de extrema importância nos dias de hoje, que todas as marcas buscam alcançar.
+
+Além disso, é notavelmente simples perceber como esse mercado contribui para as vendas quando se tem uma pessoa transmitindo ao vivo, interagindo e apresentando o produto em 360 graus. Quem nunca desejou obter mais informações sobre um produto antes de comprar e procurou análises no YouTube?
+
+PROMPT
+
+E o Presence quer simbolizar para a deco, o passo de entrada nesse mercado.
+
+Devido ao curto espaço de tempo e a complexidade de integração com plataformas de terceiros, que ainda não estão tão maduras nesse segmento quanto no e-commerce tradicional, tivemos que deixar de fora um aspecto importante, que é o player de Live Streaming em si. 
+
+Para nossa entrega de hoje, resolvemos focar em entregar algo palpável e evoluir o projeto construindo em cima do que tínhamos antes.
+
+*Mostrar o Chat*
+
+Falar durante o chat: 
+  - média de likes/view é 35 então a interatividade é altissima
+
+O que vocês acham que foi necessário para habilitar esse comportamento em tempo real?
+Vou mostrar para vocês.
+
+1 linha de código. *mostrar o re-export*
+
+Apenas com esse re-export o Presence encapsula toda a sua lógica de realtime.
+Mas é claro, como toda abstração bem-pensada, começar a fazer algo é extremamente simples,
+mas assim que você quiser ir mais longe, o Presence te acompanha, expondo APIs que habilitam extensibilidade.
+
+Assim gente, bastante funcionalidade é legal. Mas isso tem que vir da maneira certa. Sabemos o quão crítico é
+a performance do seu website hoje, e por isso escolhemos utilizar zero dependências externas. Todo o código
+necessário para que o Presence funcione é escrito com APIs nativas do Deno e da Web, 
+** utilizando apenas bibliotecas que a deco já incluiria obrigatoriamente (fresh, preact) ** --> sera ? 
+o que também ajuda nessa sua capacidade de Plug and Play, e mantém o tamanho do bundle do seu site mínimo.
+
+Todo o conteúdo que mostramos para vocês agora está esperando por Code Review em uma pull request no deco-cx/apps .
+
+E aí pessoal, Vamos entrar nesse mercado com o pé direito?
