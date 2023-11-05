@@ -9,7 +9,7 @@ fonts:
   mono: Fira Code
 ---
 
-<img v-click src="presence-old.png" style="filter: invert()" width="300" height=""/>
+<img v-click src="/presence-old.png" style="filter: invert()" width="300" height=""/>
 
 <h4 v-after style="position: absolute; bottom: 2rem; left: 2rem;">
 Viktor Marinho
@@ -20,22 +20,22 @@ Viktor Marinho
 layout: center
 ---
 
-<img src="counter.gif" width="600" style="border-radius: 8px; filter: drop-shadow(5px 5px 10px white);" />
+<img src="/counter.gif" width="600" style="border-radius: 8px; filter: drop-shadow(5px 5px 10px white);" />
 
 ---
 layout: center
 transition: slide-left
 ---
 
-<img src="presence-old.png" style="margin: auto; filter: invert();" width="500" height=""/>
+<img src="/presence-old.png" style="margin: auto; filter: invert();" width="500" height=""/>
 
 ---
 layout: center
 ---
 
 <div style="display: flex; align-items: center; margin-bottom: 150px;">
-  <img src="presence-new.png" style="margin: auto; filter: invert();" width="500" height=""/>
-  <img src="bolt.svg" class="bolt" style="margin-top: 20px;"/>
+  <img src="/presence-new.png" style="margin: auto; filter: invert();" width="500" height=""/>
+  <img src="/bolt.svg" class="bolt" style="margin-top: 20px;"/>
 </div>
 
 <h3 v-click="1" style="text-align: center; margin-top: -150px;">
@@ -58,18 +58,18 @@ layout: center
 
 <div style="display: flex; align-items:center; gap: 4rem">
   <div v-click="1" style="display: flex; align-items:center; flex-direction: column;">
-  <img src="connections.gif" width="200" style=" border-radius: 8px"/>
+  <img src="/connections.gif" width="200" style=" border-radius: 8px"/>
   <h5 style="text-align: center;">Conexões genuínas <br> entre Consumidor e marca</h5>
   </div>
   <div v-click="2" style="display: flex; align-items:center; flex-direction: column;">
-  <img src="review.gif" width="300" style=" border-radius: 8px;"/>
+  <img src="/review.gif" width="300" style=" border-radius: 8px;"/>
   <h5 style="text-align: center;">Melhor visão do produto, <br> com experiência mais envolvente</h5>
   </div>
 </div>
 
 <div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
-  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
-  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+  <img src="/presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="/bolt.svg" class="bolt" style="height: 40px;"/>
 </div>
 
 ---
@@ -93,8 +93,8 @@ layout: center
   </div>
   <span>🤝</span>
   <div style="display: flex; align-items: center;margin-bottom: 35px;">
-    <img src="presence-new.png" style="margin: auto; filter: invert();" width="250" height=""/>
-    <img src="bolt.svg" class="bolt" style="margin-top: 5px; width: 70px;"/>
+    <img src="/presence-new.png" style="margin: auto; filter: invert();" width="250" height=""/>
+    <img src="/bolt.svg" class="bolt" style="margin-top: 5px; width: 70px;"/>
   </div>
 </div>
 
@@ -106,25 +106,25 @@ Daniel Henrique
 layout: center
 ---
 
-<img src="stream-architecture.png" width="400" style="border-radius: 8px; margin: auto" />
+<img src="/stream-architecture.png" width="400" style="border-radius: 8px; margin: auto" />
 <br>
 <h4 style="text-align: center;">Exemplo de arquitetura de <br> um serviço de streaming de vídeo</h4>
 
 
 <div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
-  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
-  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+  <img src="/presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="/bolt.svg" class="bolt" style="height: 40px;"/>
 </div>
 
 ---
 layout: center
 ---
 
-<img src="chat.gif" width="600" style="border-radius: 8px; filter: drop-shadow(5px 5px 10px white);" />
+<img src="/chat.gif" width="600" style="border-radius: 8px; filter: drop-shadow(5px 5px 10px white);" />
 
 <div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
-  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
-  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+  <img src="/presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="/bolt.svg" class="bolt" style="height: 40px;"/>
 </div>
 
 ---
@@ -141,8 +141,8 @@ export const handler = createPresenceHandler({});
 
 
 <div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
-  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
-  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+  <img src="/presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="/bolt.svg" class="bolt" style="height: 40px;"/>
 </div>
 
 ---
@@ -165,20 +165,20 @@ export const handler = createPresenceHandler({
 É possível "hookar" em eventos relevantes para extender a funcionalidade
 
 <div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
-  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
-  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+  <img src="/presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="/bolt.svg" class="bolt" style="height: 40px;"/>
 </div>
 
 ---
 layout: center
 ---
 
-<img src="pagespeed.png" width="450" style="border-radius: 8px;"/>
+<img src="/pagespeed.png" width="450" style="border-radius: 8px;"/>
 <h4 style="margin-top: 1rem; text-align: center;">Zero peer-dependencies + Bundle mínimo</h4>
 
 <div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
-  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
-  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+  <img src="/presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="/bolt.svg" class="bolt" style="height: 40px;"/>
 </div>
 
 ---
@@ -197,8 +197,8 @@ layout: center
 </div>
 
 <div style="display: flex; align-items: center; position: absolute; bottom: 2rem; right: 2rem;">
-  <img src="presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
-  <img src="bolt.svg" class="bolt" style="height: 40px;"/>
+  <img src="/presence-new.png" style="margin: auto; filter: invert();" width="150" height=""/>
+  <img src="/bolt.svg" class="bolt" style="height: 40px;"/>
 </div>
 
 ---
@@ -209,7 +209,7 @@ layout: center
 
 <br>
   <div style="display: flex; align-items: center;margin-bottom: 35px;">
-    <img src="presence-new.png" style="margin: auto; filter: invert();" width="250" height=""/>
-    <img src="bolt.svg" class="bolt" style="margin-top: 5px; width: 70px;"/>
+    <img src="/presence-new.png" style="margin: auto; filter: invert();" width="250" height=""/>
+    <img src="/bolt.svg" class="bolt" style="margin-top: 5px; width: 70px;"/>
   </div>
 ---
